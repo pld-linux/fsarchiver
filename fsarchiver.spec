@@ -12,6 +12,7 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	bzip2-devel
 BuildRequires:	e2fsprogs-devel
+BuildRequires:	libblkid-devel
 BuildRequires:	libgcrypt-devel
 BuildRequires:	libuuid-devel
 BuildRequires:	lzo-devel
