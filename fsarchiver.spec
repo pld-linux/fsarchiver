@@ -1,7 +1,7 @@
 Summary:	Safe and flexible file-system backup/deployment tool
 Name:		fsarchiver
 Version:	0.6.12
-Release:	2
+Release:	3
 License:	GPL v2+
 Group:		Applications/System
 Source0:	http://downloads.sourceforge.net/fsarchiver/%{name}-%{version}.tar.gz
