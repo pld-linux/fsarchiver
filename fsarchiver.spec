@@ -1,11 +1,11 @@
 Summary:	Safe and flexible file-system backup/deployment tool
 Name:		fsarchiver
-Version:	0.6.12
-Release:	3
-License:	GPL v2+
+Version:	0.8.9
+Release:	1
+License:	GPL v2
 Group:		Applications/System
-Source0:	http://downloads.sourceforge.net/fsarchiver/%{name}-%{version}.tar.gz
-# Source0-md5:	dc54cefcf9c2bc331063d82a7ad54133
+Source0:	https://github.com/fdupoux/fsarchiver/releases/download/%{version}/%{name}-%{version}.tar.gz
+# Source0-md5:	644dc1ee34e502b1d6fcb696e7ebd115
 URL:		http://www.fsarchiver.org/
 BuildRequires:	attr-devel
 BuildRequires:	autoconf
@@ -15,10 +15,12 @@ BuildRequires:	e2fsprogs-devel
 BuildRequires:	libblkid-devel
 BuildRequires:	libgcrypt-devel
 BuildRequires:	libuuid-devel
+BuildRequires:	lz4-devel
 BuildRequires:	lzo-devel
 BuildRequires:	pkgconfig
 BuildRequires:	xz-devel
 BuildRequires:	zlib-devel
+BuildRequires:	zstd-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
